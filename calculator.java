@@ -28,5 +28,8 @@ public class hay {
       if(process > 4){
         System.out.println("Error");
       }
+      if(process < 1){
+        System.out.println("Error");
+      }
     }
 }
