@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class (Your file name) {
+public class hay {
     public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
       scan.useLocale(Locale.US);
@@ -25,7 +25,7 @@ public class (Your file name) {
       if(process == 4){
         System.out.println((double)(number1-number2));
       }
-      else{
+      if(process > 4){
         System.out.println("Error");
       }
     }
