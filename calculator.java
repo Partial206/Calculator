@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class hay {
+public class calculator {
     public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
       scan.useLocale(Locale.US);
