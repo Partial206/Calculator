@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class scalculator {
+public class main {
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
 
@@ -16,18 +16,22 @@ public class scalculator {
        switch(process){
         case 1:
         System.out.println((double)(number1/number2));
+        break;
        }
        switch(process){
         case 2:
         System.out.println((double)(number1*number2));;
+        break;
        }
        switch(process){
         case 3:
         System.out.println((double)(number1+number2));;
+        break;
        }
        switch(process){
         case 4:
         System.out.println((double)(number1-number2));
+        break;
        }
 
     }
