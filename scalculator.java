@@ -27,7 +27,5 @@ public class scalculator {
          System.out.println((double)(number1-number2));
         break;
        }
-       
-
     }
 }
